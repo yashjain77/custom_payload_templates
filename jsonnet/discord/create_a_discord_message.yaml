@@ -7,7 +7,7 @@ template-code: |
       name: "Alice",
       welcome: "Hello " + self.name + "!" ,
     },
-    
+    crazy person
     person2: self.person1 { name: "Bob" },
 
   }
