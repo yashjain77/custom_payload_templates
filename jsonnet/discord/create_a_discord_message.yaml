@@ -9,6 +9,7 @@ template-code: |
     },
     crazy person
     sheldon
+    leonard
     person2: self.person1 { name: "Bob" },
 
   }
