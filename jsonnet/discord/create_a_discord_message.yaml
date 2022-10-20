@@ -11,6 +11,8 @@ template-code: |
     sheldon
     leonard
     penny
+    howard
+    raj
     person2: self.person1 { name: "Bob" },
 
   }
