@@ -10,6 +10,18 @@ template-code: |
 
     person2: self.person1 { name: "Bob" },
     person2: self.person1 { name: "Bob" },
+    person2: self.person1 { name: "Bob" },
+    person2: self.person1 { name: "Bob" },
+    person2: self.person1 { name: "Bob" },
+    person2: self.person1 { name: "Bob" },
+    person2: self.person1 { name: "Bob" },
+    person2: self.person1 { name: "Bob" },
+    person2: self.person1 { name: "Bob" },
+    person2: self.person1 { name: "Bob" },
+    person2: self.person1 { name: "Bob" },
+    person2: self.person1 { name: "Bob" },
+    person2: self.person1 { name: "Bob" },
+
 
   }
 
