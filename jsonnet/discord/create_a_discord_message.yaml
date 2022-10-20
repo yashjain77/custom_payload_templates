@@ -1,0 +1,12 @@
+name: Create a discord message
+slug: create-a-discord-message
+language: jsonnet
+template-code: |
+  {
+    person1: {
+      name: "Alice",
+      welcome: "Hello " + self.name + "!",
+    },
+    person2: self.person1 { name: "Bob" },
+  }
+
