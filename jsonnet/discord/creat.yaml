@@ -6,6 +6,7 @@ template-code: |
     person1: {
       name: "Yash",
       welcome: "Hello " + self.name + "!" ,
+      
     },
   }
 
