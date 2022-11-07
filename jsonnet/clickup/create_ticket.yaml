@@ -13,7 +13,7 @@ template-code: |
     "due_date": 0,
     "due_date_time": false,
     "time_estimate": 0,
-    "start_date": false,
+    "start_date": 1667809088918,
     "start_date_time": false,
     "notify_all": true,
     "parent": null,
