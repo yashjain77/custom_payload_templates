@@ -5,9 +5,9 @@ template-code: |
   {
     "urgency": 2,
     "impact": 2,
-    "short_description": "**"+request.body.data.resource_data.message+"**" 
+    "short_description": "**"+root.data.resource_data.message+"**" 
                     + "\n\n"+"**Incident Description :-** \n" 
-                    + request.body.data.resource_data.description
+                    + root.data.resource_data.description
                     + "\n\n"+"**Incident URL : **"
-                    + request.body.data.resource_data.url
+                    + root.data.resource_data.url
   }
