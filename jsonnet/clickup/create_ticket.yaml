@@ -3,8 +3,8 @@ slug: create-a-clickup-ticket
 language: jsonnet
 template-code: |
   {
-    "name": event_data.data.resource_data.message,
-    "description": event_data.data.resource_data.description +"\n"+ "Incident Link : " + event_data.data.resource_data.url,
+    "name": root.data.resource_data.message,
+    "description": root.data.resource_data.description +"\n"+ "Incident Link : " + root.data.resource_data.url,
     "assignees": [
     ],
     "tags": [],
