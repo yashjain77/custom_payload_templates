@@ -1,0 +1,12 @@
+name: MatterMost - Send Message
+slug: mattermost-send-message
+language: jsonnet
+template-code: |
+  {
+    "text": "<!channel>\n#### ["+event_data.data.resource_data.message
+            +"]("+event_data.data.resource_data.url+")\n"
+            +"\n\n**Incident State** : " + event_data.data.resource_data.status + "\n" 
+            + "**Service Name** : " + event_data.data.resource_data.service.name + "\n"
+            + "**Alert Source** : " + event_data.data.resource_data.alert_source.type + "\n\n"
+            + "**Description** :-\n" + event_data.data.resource_data.description + "\n"
+  }
